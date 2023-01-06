@@ -11,3 +11,5 @@ ADD docker-entrypoint.sh /docker-entrypoint.sh
 ADD conf.d/00-galera.cnf /etc/mysql/conf.d/00-galera.cnf
 
 EXPOSE 3306 4444 4567 4568
+
+# Edited on Jan 6 2023
